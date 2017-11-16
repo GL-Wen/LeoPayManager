@@ -8,16 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import "LLPaySdk.h"
-
 #import "WXApi.h"
 #import "WechatAuthSDK.h"
 
 #import <AlipaySDK/AlipaySDK.h>
-
-#import "UPPaymentControl.h"
-
-
 
 /*
  respCode:
@@ -44,7 +38,7 @@ typedef NS_ENUM(NSInteger, LeoApplePaySupportStatus)
 
 
 
-@interface LeoPayManager : NSObject <LLPaySdkDelegate, WXApiDelegate>
+@interface LeoPayManager : NSObject <WXApiDelegate>
 
 + (LeoPayManager *)getInstance;
 
@@ -59,30 +53,6 @@ typedef NS_ENUM(NSInteger, LeoApplePaySupportStatus)
  Apple Pay支付结果回调
  */
 @property (nonatomic, strong)LeoPayManagerRespBlock applePayRespBlock;
-
-/*
- 是否支持Apple Pay
- 判断返回的枚举类型
- */
-+ (LeoApplePaySupportStatus)isCanApplePay;
-
-/*
- 跳转wallet系统app进行绑卡
- */
-+ (void)showWalletToBindCard;
-
-/*
- 发起Apple Pay支付
- */
-- (void)applePayWithTraderInfo:(NSDictionary *)traderInfo
-           viewController:(UIViewController *)viewController
-                respBlock:(LeoPayManagerRespBlock)block;
-
-
-
-
-
-
 
 //***************微信*****************//
 
@@ -144,31 +114,6 @@ typedef NS_ENUM(NSInteger, LeoApplePaySupportStatus)
 - (void)aliPayOrder:(NSString *)order
              scheme:(NSString *)scheme
           respBlock:(LeoPayManagerRespBlock)block;
-
-
-
-
-
-
-
-//***************银联*****************//
-
-/*
- 银联支付结果回调
- */
-@property (nonatomic, strong)LeoPayManagerRespBlock unionRespBlock;
-
-/*
- 处理银联通过URL启动App时传递回来的数据
- */
-+ (BOOL)unionHandleOpenURL:(NSURL*)url;
-
-/*
- 发起银联支付
- */
-- (void)unionPayWithSerialNo:(NSString *)serialNo
-              viewController:(id)viewController
-                   respBlock:(LeoPayManagerRespBlock)block;
 
 
 @end

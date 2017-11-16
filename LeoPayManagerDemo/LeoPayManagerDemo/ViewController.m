@@ -55,15 +55,7 @@
 #pragma mark - Button Func
 - (void)ApplePayFunc
 {
-    //先获取Apple Pay支付参数
-    //...
     
-    LeoPayManager *manager = [LeoPayManager getInstance];
-    [manager applePayWithTraderInfo:nil viewController:self respBlock:^(NSInteger respCode, NSString *respMsg) {
-        
-        //处理支付结果
-        
-    }];
 }
 
 - (void)wechatPayFunc
@@ -96,13 +88,6 @@
 {
     //先获取银联支付参数
     //...
-    
-    LeoPayManager *manager = [LeoPayManager getInstance];
-    [manager unionPayWithSerialNo:@"" viewController:self respBlock:^(NSInteger respCode, NSString *respMsg) {
-        
-        //处理支付结果
-        
-    }];
 }
 
 

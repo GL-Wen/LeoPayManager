@@ -34,10 +34,6 @@
     {
         return [LeoPayManager wechatHandleOpenURL:url];
     }
-    else if([url.scheme hasPrefix:@"UnionPay"])//银联
-    {
-        return [LeoPayManager unionHandleOpenURL:url];
-    }
     else if([url.scheme hasPrefix:@"safepay"])//支付宝
     {
         return [LeoPayManager alipayHandleOpenURL:url];
@@ -52,10 +48,6 @@
     if([url.scheme hasPrefix:@"wx"])//微信
     {
         return [LeoPayManager wechatHandleOpenURL:url];
-    }
-    else if([url.scheme hasPrefix:@"UnionPay"])//银联
-    {
-        return [LeoPayManager unionHandleOpenURL:url];
     }
     else if([url.scheme hasPrefix:@"safepay"])//支付宝
     {

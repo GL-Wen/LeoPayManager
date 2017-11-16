@@ -13,26 +13,21 @@
 
 /* Begin PBXFileReference section */
 		068A162BC5152616F50F87C61FDF55DE /* Pods-LeoPayManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoPayManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		09E67CB4D1134ACF06876CA793A9CFC7 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
 		0F7258C10FE7E0BE32C5BB1110CDE9AD /* Pods-LeoPayManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeoPayManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3319ED12DED66EDBA08545113DCF386E /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
 		3334B5FB86FE5A02AA8B2A913197A13E /* Pods-LeoPayManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoPayManagerDemo-resources.sh"; sourceTree = "<group>"; };
-		33B648390C913D5EE310EDF5A2A873B5 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK/libWeChatSDK.a; sourceTree = "<group>"; };
-		43A0239CAF79F1B29971684CF00053B6 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = UnionPay/UPPaymentControl.h; sourceTree = "<group>"; };
 		4AAC2BAB798495ABF39E93544A011BF2 /* Pods-LeoPayManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeoPayManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B081D7E900910685D56530A0398A5FB /* libRsaCrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRsaCrypto.a; path = ApplePay/libRsaCrypto.a; sourceTree = "<group>"; };
-		784BC50F37C7E60064347FFB1F9F52AD /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK/WXApiObject.h; sourceTree = "<group>"; };
-		80F0B42AA7C7B94C81149F5EDD64F1B1 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK/WXApi.h; sourceTree = "<group>"; };
 		856187269B0FCE7F88DC87E207AAE802 /* Pods-LeoPayManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeoPayManagerDemo-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A74DFFACA643C0F03FEB09F03897A09F /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = UnionPay/libPaymentControl.a; sourceTree = "<group>"; };
-		BC5E6CA9206F22A11320A1E192F3DF78 /* LLPaySdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = ApplePay/LLPaySdk.h; sourceTree = "<group>"; };
-		BF5BD26F7A219BCCE7B413AD8B0BD07F /* libPaySdkColor.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaySdkColor.a; path = ApplePay/libPaySdkColor.a; sourceTree = "<group>"; };
-		C880F6555B7AE77FBC73884B4D8C8DF9 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Alipay/AlipaySDK.framework; sourceTree = "<group>"; };
+		94950725263744B9269A2B102DBA1AD4 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK/WXApi.h; sourceTree = "<group>"; };
+		BBF7C19F63EB3B4D412B704C2776B53E /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK/WXApiObject.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE3CD21E6ED9B47969813AB471E52AFA /* libPods-LeoPayManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LeoPayManagerDemo.a"; path = "libPods-LeoPayManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3647622E75CC8AD5418F97F0CD09B1A /* Pods-LeoPayManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoPayManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8EFCF3FE82506933A4DCCC7BC9F419C /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = Alipay/AlipaySDK.bundle; sourceTree = "<group>"; };
 		E04A14129429288F359EA171B7C9DA48 /* Pods-LeoPayManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoPayManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F7D29A1AF6608995C819C3332E66DB13 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = Alipay/AlipaySDK.bundle; sourceTree = "<group>"; };
+		E76153D1DBC04D3EAC6FD8FC2423F700 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Alipay/AlipaySDK.framework; sourceTree = "<group>"; };
+		F40862C70F6BB3A0497493CF94ECF381 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,21 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C3D46BB232B2CA69515DCCA7070B0F7 /* Frameworks */ = {
+		10DBC6ADAFEC060649AB12DB7E799E0C /* Alipay_SDK_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				33B648390C913D5EE310EDF5A2A873B5 /* libWeChatSDK.a */,
+				C792F266FB257BC8A58F6D780D3A4B6D /* Frameworks */,
+				C8A67F0AA02E6D02874343DE42CC89CD /* Resources */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0FA81A15ED7776BCBC78C3F6E843FC11 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF5BD26F7A219BCCE7B413AD8B0BD07F /* libPaySdkColor.a */,
-				5B081D7E900910685D56530A0398A5FB /* libRsaCrypto.a */,
-			);
-			name = Frameworks;
+			name = Alipay_SDK_iOS;
+			path = Alipay_SDK_iOS;
 			sourceTree = "<group>";
 		};
 		161B5CDE26FC38E4A2977CD2575A0670 /* Targets Support Files */ = {
@@ -70,16 +58,6 @@
 				4E0709E474899EA74C0CF931BF1BAF9D /* Pods-LeoPayManagerDemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2F643FAB3E2FFE4DA3DE14D8335E31C9 /* Alipay_SDK_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				67FABEB6504FEA3B41C1879835840358 /* Frameworks */,
-				CEC41C7B368E2A1BDFB0272F55C32700 /* Resources */,
-			);
-			name = Alipay_SDK_iOS;
-			path = Alipay_SDK_iOS;
 			sourceTree = "<group>";
 		};
 		4E0709E474899EA74C0CF931BF1BAF9D /* Pods-LeoPayManagerDemo */ = {
@@ -97,43 +75,11 @@
 			path = "Target Support Files/Pods-LeoPayManagerDemo";
 			sourceTree = "<group>";
 		};
-		5442A4135EABDB764BAC269231D4F244 /* ApplePay_SDK */ = {
+		73E22CB6D6CA8840E183E1C6902953B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC5E6CA9206F22A11320A1E192F3DF78 /* LLPaySdk.h */,
-				0FA81A15ED7776BCBC78C3F6E843FC11 /* Frameworks */,
-			);
-			name = ApplePay_SDK;
-			path = ApplePay_SDK;
-			sourceTree = "<group>";
-		};
-		5E12C32FFBA90AFB01215F88CBBEBD64 /* WeChat_SDK_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				09E67CB4D1134ACF06876CA793A9CFC7 /* WechatAuthSDK.h */,
-				80F0B42AA7C7B94C81149F5EDD64F1B1 /* WXApi.h */,
-				784BC50F37C7E60064347FFB1F9F52AD /* WXApiObject.h */,
-				0C3D46BB232B2CA69515DCCA7070B0F7 /* Frameworks */,
-			);
-			name = WeChat_SDK_iOS;
-			path = WeChat_SDK_iOS;
-			sourceTree = "<group>";
-		};
-		67FABEB6504FEA3B41C1879835840358 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C880F6555B7AE77FBC73884B4D8C8DF9 /* AlipaySDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6F00BB3A6386957C33B0C8FE1BBE6B23 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2F643FAB3E2FFE4DA3DE14D8335E31C9 /* Alipay_SDK_iOS */,
-				5442A4135EABDB764BAC269231D4F244 /* ApplePay_SDK */,
-				F30CBF2434A11BDB31884FF72FF2173B /* UnionPay_SDK_iOS */,
-				5E12C32FFBA90AFB01215F88CBBEBD64 /* WeChat_SDK_iOS */,
+				10DBC6ADAFEC060649AB12DB7E799E0C /* Alipay_SDK_iOS */,
+				FA5EC97FC51CE5F17D0D72CE05191CE6 /* WeChat_SDK_iOS */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -146,20 +92,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7968E6893FE18A2C375D8F3AF3A6910C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A74DFFACA643C0F03FEB09F03897A09F /* libPaymentControl.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6F00BB3A6386957C33B0C8FE1BBE6B23 /* Pods */,
+				73E22CB6D6CA8840E183E1C6902953B0 /* Pods */,
 				DA5A1B022F11A4F88D91B27D508CD0E4 /* Products */,
 				161B5CDE26FC38E4A2977CD2575A0670 /* Targets Support Files */,
 			);
@@ -173,10 +111,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEC41C7B368E2A1BDFB0272F55C32700 /* Resources */ = {
+		C792F266FB257BC8A58F6D780D3A4B6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7D29A1AF6608995C819C3332E66DB13 /* AlipaySDK.bundle */,
+				E76153D1DBC04D3EAC6FD8FC2423F700 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A67F0AA02E6D02874343DE42CC89CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8EFCF3FE82506933A4DCCC7BC9F419C /* AlipaySDK.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -189,14 +135,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F30CBF2434A11BDB31884FF72FF2173B /* UnionPay_SDK_iOS */ = {
+		DA5CC0FB5D1FA4D030E0047C2C01EB25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43A0239CAF79F1B29971684CF00053B6 /* UPPaymentControl.h */,
-				7968E6893FE18A2C375D8F3AF3A6910C /* Frameworks */,
+				F40862C70F6BB3A0497493CF94ECF381 /* libWeChatSDK.a */,
 			);
-			name = UnionPay_SDK_iOS;
-			path = UnionPay_SDK_iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5EC97FC51CE5F17D0D72CE05191CE6 /* WeChat_SDK_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3319ED12DED66EDBA08545113DCF386E /* WechatAuthSDK.h */,
+				94950725263744B9269A2B102DBA1AD4 /* WXApi.h */,
+				BBF7C19F63EB3B4D412B704C2776B53E /* WXApiObject.h */,
+				DA5CC0FB5D1FA4D030E0047C2C01EB25 /* Frameworks */,
+			);
+			name = WeChat_SDK_iOS;
+			path = WeChat_SDK_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
