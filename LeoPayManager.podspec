@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files  = "LeoPayManager/*.{h,m}"
   s.public_header_files = "LeoPayManager/LeoPayManager.h"
   s.requires_arc = true
-  s.dependency "WeChat_SDK_iOS"
+  s.dependency "WechatOpenSDK"
   s.dependency "AlipaySDK-iOS"
 
 end
