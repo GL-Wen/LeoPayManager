@@ -1,1 +1,0 @@
-../../../WeChat_SDK_iOS/OpenSDK/WXApi.h

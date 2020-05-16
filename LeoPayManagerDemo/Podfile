@@ -1,5 +1,5 @@
 
 target 'LeoPayManagerDemo' do
-    pod 'WeChat_SDK_iOS'
-    pod 'Alipay_SDK_iOS'
+    pod 'WechatOpenSDK'
+    pod 'AlipaySDK-iOS'
 end

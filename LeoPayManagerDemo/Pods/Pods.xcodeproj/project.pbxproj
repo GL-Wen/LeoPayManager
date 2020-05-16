@@ -6,364 +6,554 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AlipaySDK-iOS";
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		7BD6CC07D07ACB64EEEED2578AF6F5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D663D5377D4A0297E0EE20131A1E74E5 /* Pods-LeoPayManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 856187269B0FCE7F88DC87E207AAE802 /* Pods-LeoPayManagerDemo-dummy.m */; };
+		29DB3BD140D0B1521771C47F7DC67F16 /* Pods-LeoPayManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3111D311048914558A979E12CD6DA0 /* Pods-LeoPayManagerDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C913D451930E56331B8D6E35A6550A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		E594A71AF4BB0160FEDD8C2DE555AA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		068A162BC5152616F50F87C61FDF55DE /* Pods-LeoPayManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoPayManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		0F7258C10FE7E0BE32C5BB1110CDE9AD /* Pods-LeoPayManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeoPayManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		3319ED12DED66EDBA08545113DCF386E /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
-		3334B5FB86FE5A02AA8B2A913197A13E /* Pods-LeoPayManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoPayManagerDemo-resources.sh"; sourceTree = "<group>"; };
-		4AAC2BAB798495ABF39E93544A011BF2 /* Pods-LeoPayManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeoPayManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		856187269B0FCE7F88DC87E207AAE802 /* Pods-LeoPayManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeoPayManagerDemo-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94950725263744B9269A2B102DBA1AD4 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK/WXApi.h; sourceTree = "<group>"; };
-		BBF7C19F63EB3B4D412B704C2776B53E /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK/WXApiObject.h; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE3CD21E6ED9B47969813AB471E52AFA /* libPods-LeoPayManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LeoPayManagerDemo.a"; path = "libPods-LeoPayManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3647622E75CC8AD5418F97F0CD09B1A /* Pods-LeoPayManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoPayManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D8EFCF3FE82506933A4DCCC7BC9F419C /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = Alipay/AlipaySDK.bundle; sourceTree = "<group>"; };
-		E04A14129429288F359EA171B7C9DA48 /* Pods-LeoPayManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoPayManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E76153D1DBC04D3EAC6FD8FC2423F700 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Alipay/AlipaySDK.framework; sourceTree = "<group>"; };
-		F40862C70F6BB3A0497493CF94ECF381 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		04F1B2571D47F4E88F8C168A5B1E82D1 /* libPods-LeoPayManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LeoPayManagerDemo.a"; path = "libPods-LeoPayManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1378838BAD308EA1B6260A759CEA552E /* Pods-LeoPayManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoPayManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0E58C28B79139D7CB55D2E4D515038 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		439BC51372D263CC9F4FD6B9425107A5 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		4AB8E6940DFD8D9D1B0EEC9E4C11771F /* Pods-LeoPayManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoPayManagerDemo-resources.sh"; sourceTree = "<group>"; };
+		67425B793420A140F2AC54FBC2F5D23C /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		6E3111D311048914558A979E12CD6DA0 /* Pods-LeoPayManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeoPayManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		76F05287894A267EE14DE6817FA8548F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		794DD03F9391F7D79E599878A7A75F74 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		8B927BD51E599D040B511B1A0C85533F /* Pods-LeoPayManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeoPayManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		93DA5E5A191FA6A31403753D6AD6D542 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		9BCCE7A311F85C8977229967B47026AF /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E0F595160657591CA83ECD2D128201B3 /* Pods-LeoPayManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoPayManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E1D5A9B9413C02EA9F5DCB53A5C13B5B /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		F0A1A89BA2CAA2A55D493248DA2EFA17 /* Pods-LeoPayManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeoPayManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF5799326E4B185A66232E5DAC936877 /* Frameworks */ = {
+		5A564E6FC49320C4BB1EB154EE38DFBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD6CC07D07ACB64EEEED2578AF6F5F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10DBC6ADAFEC060649AB12DB7E799E0C /* Alipay_SDK_iOS */ = {
+		031585440D19C24408251CCDBD89E8B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C792F266FB257BC8A58F6D780D3A4B6D /* Frameworks */,
-				C8A67F0AA02E6D02874343DE42CC89CD /* Resources */,
+				0557B4D96C5422E89B692ACEE990113C /* AlipaySDK-iOS */,
+				9E7DB361D0C4069D7549E46CD56B4F4D /* WechatOpenSDK */,
 			);
-			name = Alipay_SDK_iOS;
-			path = Alipay_SDK_iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		161B5CDE26FC38E4A2977CD2575A0670 /* Targets Support Files */ = {
+		0557B4D96C5422E89B692ACEE990113C /* AlipaySDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4E0709E474899EA74C0CF931BF1BAF9D /* Pods-LeoPayManagerDemo */,
+				3FA60FE65F3816CA44D72189CF1ED4F3 /* Frameworks */,
+				DEB4F4EC4DB72C8F198C9A4D0262E812 /* Resources */,
+				5B48ECBE877EC309263FB424747415AB /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
-		4E0709E474899EA74C0CF931BF1BAF9D /* Pods-LeoPayManagerDemo */ = {
+		3FA60FE65F3816CA44D72189CF1ED4F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AAC2BAB798495ABF39E93544A011BF2 /* Pods-LeoPayManagerDemo-acknowledgements.markdown */,
-				0F7258C10FE7E0BE32C5BB1110CDE9AD /* Pods-LeoPayManagerDemo-acknowledgements.plist */,
-				856187269B0FCE7F88DC87E207AAE802 /* Pods-LeoPayManagerDemo-dummy.m */,
-				068A162BC5152616F50F87C61FDF55DE /* Pods-LeoPayManagerDemo-frameworks.sh */,
-				3334B5FB86FE5A02AA8B2A913197A13E /* Pods-LeoPayManagerDemo-resources.sh */,
-				E04A14129429288F359EA171B7C9DA48 /* Pods-LeoPayManagerDemo.debug.xcconfig */,
-				D3647622E75CC8AD5418F97F0CD09B1A /* Pods-LeoPayManagerDemo.release.xcconfig */,
+				76F05287894A267EE14DE6817FA8548F /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B48ECBE877EC309263FB424747415AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */,
+				B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		730F5D234B02A04E3B9AB51779D42FEF /* Pods-LeoPayManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0A1A89BA2CAA2A55D493248DA2EFA17 /* Pods-LeoPayManagerDemo-acknowledgements.markdown */,
+				8B927BD51E599D040B511B1A0C85533F /* Pods-LeoPayManagerDemo-acknowledgements.plist */,
+				6E3111D311048914558A979E12CD6DA0 /* Pods-LeoPayManagerDemo-dummy.m */,
+				4AB8E6940DFD8D9D1B0EEC9E4C11771F /* Pods-LeoPayManagerDemo-resources.sh */,
+				1378838BAD308EA1B6260A759CEA552E /* Pods-LeoPayManagerDemo.debug.xcconfig */,
+				E0F595160657591CA83ECD2D128201B3 /* Pods-LeoPayManagerDemo.release.xcconfig */,
 			);
 			name = "Pods-LeoPayManagerDemo";
 			path = "Target Support Files/Pods-LeoPayManagerDemo";
 			sourceTree = "<group>";
 		};
-		73E22CB6D6CA8840E183E1C6902953B0 /* Pods */ = {
+		9E7DB361D0C4069D7549E46CD56B4F4D /* WechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				10DBC6ADAFEC060649AB12DB7E799E0C /* Alipay_SDK_iOS */,
-				FA5EC97FC51CE5F17D0D72CE05191CE6 /* WeChat_SDK_iOS */,
+				9BCCE7A311F85C8977229967B47026AF /* WechatAuthSDK.h */,
+				67425B793420A140F2AC54FBC2F5D23C /* WXApi.h */,
+				439BC51372D263CC9F4FD6B9425107A5 /* WXApiObject.h */,
+				E0952E71F543817B0C2800D7D6FDCB18 /* Frameworks */,
+				C8E3DE8FDD1613BFE45CEE3D7D153815 /* Support Files */,
 			);
-			name = Pods;
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		B79D3C1C7FF5A80159EB3A7FEB1F210C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				730F5D234B02A04E3B9AB51779D42FEF /* Pods-LeoPayManagerDemo */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		C8E3DE8FDD1613BFE45CEE3D7D153815 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				73E22CB6D6CA8840E183E1C6902953B0 /* Pods */,
-				DA5A1B022F11A4F88D91B27D508CD0E4 /* Products */,
-				161B5CDE26FC38E4A2977CD2575A0670 /* Targets Support Files */,
+				794DD03F9391F7D79E599878A7A75F74 /* WechatOpenSDK.debug.xcconfig */,
+				1E0E58C28B79139D7CB55D2E4D515038 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				031585440D19C24408251CCDBD89E8B8 /* Pods */,
+				FCD6BC00963817C90CC16F1C9D905DC7 /* Products */,
+				B79D3C1C7FF5A80159EB3A7FEB1F210C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C792F266FB257BC8A58F6D780D3A4B6D /* Frameworks */ = {
+		DEB4F4EC4DB72C8F198C9A4D0262E812 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E76153D1DBC04D3EAC6FD8FC2423F700 /* AlipaySDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C8A67F0AA02E6D02874343DE42CC89CD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D8EFCF3FE82506933A4DCCC7BC9F419C /* AlipaySDK.bundle */,
+				E1D5A9B9413C02EA9F5DCB53A5C13B5B /* AlipaySDK.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		DA5A1B022F11A4F88D91B27D508CD0E4 /* Products */ = {
+		E0952E71F543817B0C2800D7D6FDCB18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE3CD21E6ED9B47969813AB471E52AFA /* libPods-LeoPayManagerDemo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DA5CC0FB5D1FA4D030E0047C2C01EB25 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F40862C70F6BB3A0497493CF94ECF381 /* libWeChatSDK.a */,
+				93DA5E5A191FA6A31403753D6AD6D542 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA5EC97FC51CE5F17D0D72CE05191CE6 /* WeChat_SDK_iOS */ = {
+		FCD6BC00963817C90CC16F1C9D905DC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3319ED12DED66EDBA08545113DCF386E /* WechatAuthSDK.h */,
-				94950725263744B9269A2B102DBA1AD4 /* WXApi.h */,
-				BBF7C19F63EB3B4D412B704C2776B53E /* WXApiObject.h */,
-				DA5CC0FB5D1FA4D030E0047C2C01EB25 /* Frameworks */,
+				04F1B2571D47F4E88F8C168A5B1E82D1 /* libPods-LeoPayManagerDemo.a */,
 			);
-			name = WeChat_SDK_iOS;
-			path = WeChat_SDK_iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AE554EA60203D4CEF190F78AABDC73BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		16176595EC7951C8ECE821E75D90CEF8 /* Pods-LeoPayManagerDemo */ = {
+		FCEF05EE9AC75A2903223492E6DA8BA5 /* Pods-LeoPayManagerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F54AAFFE21DDEDD2A2A40740D4DB921 /* Build configuration list for PBXNativeTarget "Pods-LeoPayManagerDemo" */;
+			buildConfigurationList = E674610C9395463149DCCABBAC5C7B87 /* Build configuration list for PBXNativeTarget "Pods-LeoPayManagerDemo" */;
 			buildPhases = (
-				9D56AB153A4FB557C1DD957CAED713AC /* Sources */,
-				AF5799326E4B185A66232E5DAC936877 /* Frameworks */,
+				AE554EA60203D4CEF190F78AABDC73BB /* Headers */,
+				6CCDE3D42B1E0900BB48F1FEE095CD8E /* Sources */,
+				5A564E6FC49320C4BB1EB154EE38DFBE /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E1E582218E678D119C8ADB069EDFEC2 /* PBXTargetDependency */,
+				39B9EC8C43F5CCE4511E41AF01D173E5 /* PBXTargetDependency */,
 			);
 			name = "Pods-LeoPayManagerDemo";
 			productName = "Pods-LeoPayManagerDemo";
-			productReference = CE3CD21E6ED9B47969813AB471E52AFA /* libPods-LeoPayManagerDemo.a */;
+			productReference = 04F1B2571D47F4E88F8C168A5B1E82D1 /* libPods-LeoPayManagerDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DA5A1B022F11A4F88D91B27D508CD0E4 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FCD6BC00963817C90CC16F1C9D905DC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16176595EC7951C8ECE821E75D90CEF8 /* Pods-LeoPayManagerDemo */,
+				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
+				FCEF05EE9AC75A2903223492E6DA8BA5 /* Pods-LeoPayManagerDemo */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D56AB153A4FB557C1DD957CAED713AC /* Sources */ = {
+		6CCDE3D42B1E0900BB48F1FEE095CD8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D663D5377D4A0297E0EE20131A1E74E5 /* Pods-LeoPayManagerDemo-dummy.m in Sources */,
+				29DB3BD140D0B1521771C47F7DC67F16 /* Pods-LeoPayManagerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		39B9EC8C43F5CCE4511E41AF01D173E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = E594A71AF4BB0160FEDD8C2DE555AA5B /* PBXContainerItemProxy */;
+		};
+		9E1E582218E678D119C8ADB069EDFEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = C913D451930E56331B8D6E35A6550A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6910ABAAEC43DE37BCC68FB10625B51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794DD03F9391F7D79E599878A7A75F74 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		A0F052D5A8EE05A7189E03812B02B500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		80B2D37DCE00CA67CBA4503919C39BFD /* Release */ = {
+		A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3647622E75CC8AD5418F97F0CD09B1A /* Pods-LeoPayManagerDemo.release.xcconfig */;
+			baseConfigurationReference = 9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C300D658D253E3D7F5E4AE6DF9BD5A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0E58C28B79139D7CB55D2E4D515038 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		85647511DF0D934E08067924992274C8 /* Debug */ = {
+		D459AB5BF99FA2DB00A4C2C998BAB199 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E04A14129429288F359EA171B7C9DA48 /* Pods-LeoPayManagerDemo.debug.xcconfig */;
+			baseConfigurationReference = 1378838BAD308EA1B6260A759CEA552E /* Pods-LeoPayManagerDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		F3FFEB10EE5DF5F84350CBCC6E706578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F595160657591CA83ECD2D128201B3 /* Pods-LeoPayManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F54AAFFE21DDEDD2A2A40740D4DB921 /* Build configuration list for PBXNativeTarget "Pods-LeoPayManagerDemo" */ = {
+		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85647511DF0D934E08067924992274C8 /* Debug */,
-				80B2D37DCE00CA67CBA4503919C39BFD /* Release */,
+				A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */,
+				A0F052D5A8EE05A7189E03812B02B500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6910ABAAEC43DE37BCC68FB10625B51B /* Debug */,
+				C300D658D253E3D7F5E4AE6DF9BD5A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E674610C9395463149DCCABBAC5C7B87 /* Build configuration list for PBXNativeTarget "Pods-LeoPayManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D459AB5BF99FA2DB00A4C2C998BAB199 /* Debug */,
+				F3FFEB10EE5DF5F84350CBCC6E706578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
