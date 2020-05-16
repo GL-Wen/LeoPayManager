@@ -70,7 +70,8 @@ typedef NS_ENUM(NSInteger, LeoApplePaySupportStatus)
  注册微信appId
  */
 + (BOOL)wechatRegisterAppWithAppId:(NSString *)appId
-                       description:(NSString *)description;
+                     universalLink:(NSString *)universalLink;
+
 
 /*
  处理微信通过URL启动App时传递回来的数据

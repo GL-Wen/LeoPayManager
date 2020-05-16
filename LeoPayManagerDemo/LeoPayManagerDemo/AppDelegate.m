@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //这里需要更换你申请的微信appId
-    [LeoPayManager wechatRegisterAppWithAppId:@"WeChat_appId" description:@"description"];
+    [LeoPayManager wechatRegisterAppWithAppId:@"WeChat_appId" universalLink:@""];
     
     
     

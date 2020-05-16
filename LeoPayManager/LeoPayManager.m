@@ -29,9 +29,9 @@
 {
     return [WXApi isWXAppInstalled];
 }
-+ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId description:(NSString *)description;
++ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId universalLink:(NSString *)universalLink;
 {
-    return [WXApi registerApp:appId withDescription:description];
+    return [WXApi registerApp:appId universalLink:universalLink];
 }
 + (BOOL)wechatHandleOpenURL:(NSURL *)url
 {
@@ -51,7 +51,9 @@
         req.nonceStr = nonceStr;
         req.timeStamp = (UInt32)timeStamp.integerValue;
         req.sign = sign;
-        [WXApi sendReq:req];
+        [WXApi sendReq:req completion:^(BOOL success) {
+            
+        }];
     }
     else
     {
